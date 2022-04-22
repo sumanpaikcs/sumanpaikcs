@@ -972,7 +972,7 @@ padding-right: 0px;}
   width: 100%;
   height: 5px;
   border-radius: 7px;
-  background-color: #f95e4e;
+  background-color: #ffc400;
   left: -102.5%;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1005,8 +1005,8 @@ padding-right: 0px;}
 }
 .header-social .header-social-icon ul li a:hover {
   color: #fff;
-  background-color: #f95e4e;
-  border-color: #f95e4e;
+  background-color: #ffc400;
+  border-color: #ffc400;
 }
 
 /*===========================
@@ -1119,7 +1119,7 @@ padding-right: 0px;}
 /*===========================
         4.SERVICES css 
 ===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
   .services-area {
     padding-top: 90px;
     padding-bottom: 100px;
@@ -1168,13 +1168,13 @@ padding-right: 0px;}
   transition: all 0.3s ease-out 0s;
 }
 .single-service .service-content .service-title a:hover {
-  color: #754ef9;
+  color: #ffc400;
 }
 .single-service:hover {
   -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
   -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
   box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-}
+} */
 
 /*===========================
     4.CALL TO ACTION css 
@@ -1281,7 +1281,7 @@ padding-right: 0px;}
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(117, 78, 249, 0.8);
+  background-color: rgba(255, 208, 0, 0.863);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1363,7 +1363,7 @@ padding-right: 0px;}
 }
 .single-work .work-overlay .work-content ul li a:hover {
   background-color: #fff;
-  color: #754ef9;
+  color: #ff9100;
 }
 .single-work .work-overlay .work-content ul li:nth-of-type(1) {
   -webkit-transform: translateX(-100%);
@@ -1400,175 +1400,7 @@ padding-right: 0px;}
   opacity: 1;
 }
 
-/*===========================
-       6.PRICING css 
-===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .pricing-area {
-    padding-top: 90px;
-    padding-bottom: 100px;
-  }
-}
-@media (max-width: 767px) {
-  .pricing-area {
-    padding-top: 70px;
-    padding-bottom: 80px;
-  }
-}
 
-.single-pricing .pricing-package {
-  background-color: #754ef9;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-.single-pricing .pricing-package .package-title {
-  font-size: 22px;
-  color: #fff;
-  padding: 25px;
-}
-.single-pricing .pricing-body {
-  border: 1px solid #ddd;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.single-pricing .pricing-body .pricing-text {
-  border-bottom: 1px solid #ddd;
-  padding: 20px 25px;
-}
-.single-pricing .pricing-body .pricing-text .price {
-  font-size: 30px;
-  font-weight: 600;
-  color: #754ef9;
-  padding-top: 15px;
-}
-.single-pricing .pricing-body .pricing-list {
-  padding-top: 30px;
-}
-.single-pricing .pricing-body .pricing-list ul li {
-  line-height: 36px;
-  color: #32333c;
-  font-size: 16px;
-}
-.single-pricing .pricing-body .pricing-btn {
-  padding-top: 25px;
-  padding-bottom: 40px;
-}
-.single-pricing .pricing-body .pricing-btn .main-btn {
-  background-color: #fff;
-  color: #754ef9;
-}
-.single-pricing .pricing-body .pricing-btn .main-btn:hover {
-  background-color: #754ef9;
-  color: #fff;
-}
-.single-pricing.active {
-  -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-  -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-  box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-}
-.single-pricing.active .pricing-body .pricing-btn .main-btn {
-  background-color: #754ef9;
-  color: #fff;
-}
-.single-pricing.active .pricing-body .pricing-btn .main-btn:hover {
-  background-color: #fff;
-  color: #754ef9;
-}
-
-/*===========================
-       7.BLOG css 
-===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .blog-area {
-    padding-top: 90px;
-    padding-bottom: 100px;
-  }
-}
-@media (max-width: 767px) {
-  .blog-area {
-    padding-top: 70px;
-    padding-bottom: 80px;
-  }
-}
-
-.single-blog {
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(152, 152, 152, 0.25);
-  -moz-box-shadow: 0px 0px 15px 0px rgba(152, 152, 152, 0.25);
-  box-shadow: 0px 0px 15px 0px rgba(152, 152, 152, 0.25);
-  position: relative;
-  border-radius: 5px;
-  overflow: hidden;
-}
-.single-blog .blog-image {
-  overflow: hidden;
-}
-.single-blog .blog-image img {
-  width: 100%;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single-blog .blog-content {
-  width: 75%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  padding: 25px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-@media (max-width: 767px) {
-  .single-blog .blog-content {
-    padding: 20px;
-  }
-}
-.single-blog .blog-content .blog-title a {
-  font-size: 22px;
-  font-weight: 600;
-  padding-bottom: 5px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-  color: #32333c;
-}
-@media (max-width: 767px) {
-  .single-blog .blog-content .blog-title a {
-    font-size: 18px;
-  }
-}
-.single-blog .blog-content span {
-  font-size: 16px;
-  color: #462121a3;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-.single-blog:hover .blog-image img {
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.2);
-}
-.single-blog:hover .blog-content {
-  background-color: #754ef9;
-}
-.single-blog:hover .blog-content .blog-title a {
-  color: #fff;
-}
-.single-blog:hover .blog-content span {
-  color: #fff;
-}
 
 /*===========================
        8.CONTACT css 
