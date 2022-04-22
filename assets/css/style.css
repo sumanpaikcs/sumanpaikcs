@@ -221,6 +221,7 @@ p {
 @media (max-width: 767px) {
   .section-title .title {
     font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -311,7 +312,8 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #754ef9 #754ef9 #ddd;
+  /* border-color: #f9d14e #754ef9 #ddd; */
+  border-color: #f9d14e #f9d14e #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -1262,7 +1264,7 @@ padding-right: 0px;}
 }
 @media (max-width: 767px) {
   .work-area {
-    padding-top: 70px;
+    padding-top: 4px;
     padding-bottom: 80px;
   }
 }
@@ -2422,5 +2424,12 @@ p.form-message.error.form-message.error {
 
 
 #contact_theme{
+  text-align: center;
+}
+.mt-{
+  text-align: center;
+}
+
+.info_contact{
   text-align: center;
 }
